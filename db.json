@@ -8,7 +8,7 @@
         "category": "dog",
         "rate": 2.44,
         "content": "Pre-order is exclusive only for Enrolled Students. Alumni are for Walk-in only.",
-        "imageUrl": "@/assets/img/lanyard.jpg"
+        "imageUrl": "https://www.facebook.com/photo.php?fbid=447457977416382&set=pb.100064565511407.-2207520000.&type=3"
       },
       {
         "id": 2,
@@ -17,7 +17,7 @@
         "category": "dog",
         "rate": 2.18,
         "content": "Institutional T-Shirt",
-        "imageUrl": "@/assets/img/product_shirt.jpg"
+        "imageUrl": "https://www.facebook.com/CCCStudentCouncil/photos/pb.100064565511407.-2207520000./5094513110677677/?type=3"
       },
       {
         "id": 3,
@@ -334,3 +334,4 @@
     ]
   }
 }
+      
