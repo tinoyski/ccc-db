@@ -1,14 +1,293 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "tinoyski"
-  }
+  "products": [
+    {
+      "id": 1,
+      "name": "Lanyard",
+      "price": 80,
+      "rate": 2.44,
+      "content": "Pre-order is exclusive only for Enrolled Students. Alumni are for Walk-in only.",
+      "imageUrl": "https://imgur.com/a/iLtn2js"
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt",
+      "price": 500,
+      "rate": 2.18,
+      "content": "Institutional T-Shirt",
+      "imageUrl": "https://imgur.com/a/EvVJAoh"
+    },
+    {
+      "id": 3,
+      "name": "Tote Bag",
+      "price": 150,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/TEzCzaj.png"
+    },
+    {
+      "id": 4,
+      "name": "T-Shirt 1 (XS - M)",
+      "price": 300,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/JGTY5mT.png"
+    },
+    {
+      "id": 5,
+      "name": "T-Shirt 1 (L - XXL)",
+      "price": 320,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/JGTY5mT.png"
+    },
+    {
+      "id": 6,
+      "name": "T-Shirt 2 (XS - M)",
+      "price": 300,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/7DJXUJ2.png"
+    },
+    {
+      "id": 7,
+      "name": "T-Shirt 2 (L - XXL)",
+      "price": 320,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/7DJXUJ2.png"
+    },
+    {
+      "id": 8,
+      "name": "Facemask 1",
+      "price": 50,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/OWGK0oc.png"
+    },
+    {
+      "id": 9,
+      "name": "Facemask 2",
+      "price": 50,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/e92pG7X.png"
+    },
+    {
+      "id": 10,
+      "name": "Bookmark",
+      "price": 50,
+      "content": "We bring you the OFFICIAL JPIA-CCC MERCHANDISE!It is to give a point wherein you can easily reminisce your life as a CCC-JPIANs.",
+      "imageUrl": "https://i.imgur.com/2Qq3RxG.png"
+    },
+    {
+      "id": 11,
+      "name": "T-Shirt 1",
+      "price": 300,
+      "content": "Organisasyong PAPYRUS - ALIBATA",
+      "imageUrl": "https://i.imgur.com/p9S6d2u.png"
+    },
+    {
+      "id": 12,
+      "name": "T-Shirt 2",
+      "price": 300,
+      "content": "PAPYRUS - In ART!",
+      "imageUrl": "https://i.imgur.com/2najaY2.png"
+    },
+    {
+      "id": 13,
+      "name": "Polo Shirt 1 (Female)",
+      "price": 400,
+      "content": "WHITE POLO SHIRT FOR HER WITH EMBROILED ''Organisasyong Papyrus'' - Alibata",
+      "imageUrl": "https://i.imgur.com/MXWDkkB.png"
+    },
+    {
+      "id": 14,
+      "name": "Polo Shirt 2 (Female)",
+      "price": 400,
+      "content": "WHITE POLO SHIRT FOR HER WITH EMBROILED ''PAPYRUS LOGO''",
+      "imageUrl": "https://i.imgur.com/22BdpZR.png"
+    },
+    {
+      "id": 15,
+      "name": "Polo Shirt 1 (Male)",
+      "price": 400,
+      "content": "WHITE POLO SHIRT FOR HIM WITH EMBROILED Organisasyong Papyrus - Alibata",
+      "imageUrl": "https://i.imgur.com/Wec8Oy9.png"
+    },
+    {
+      "id": 16,
+      "name": "Polo Shirt 2 (Male)",
+      "price": 400,
+      "content": "WHITE POLO SHIRT FOR HIM WITH EMBROILED PAPYRUS LOGO",
+      "imageUrl": "https://i.imgur.com/NLlkMlh.png"
+    },
+    {
+      "id": 17,
+      "name": "Departmental Shirt",
+      "price": 200,
+      "content": "CCC Department of Teacher Education Departmental Shirt",
+      "imageUrl": "https://i.imgur.com/9l3AOYx.png"
+    },
+    {
+      "id": 18,
+      "name": "T-Shirt 1 (V-Neck)",
+      "price": 280,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/NdYdiGe.jpg"
+    },
+    {
+      "id": 19,
+      "name": "T-Shirt 1 (Round-Neck)",
+      "price": 270,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/NdYdiGe.jpg"
+    },
+    {
+      "id": 20,
+      "name": "T-Shirt 2 (V-Neck)",
+      "price": 280,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/gJKxh1g.jpg"
+    },
+    {
+      "id": 21,
+      "name": "T-Shirt 2 (Round-Neck)",
+      "price": 270,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/gJKxh1g.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Tote Bag (Design A)",
+      "price": 120,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/tPYocWb.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Tote Bag (Design B)",
+      "price": 120,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/tPYocWb.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Tote Bag (Design C)",
+      "price": 120,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/tPYocWb.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Lanyard (BSA)",
+      "price": 75,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/USlUNaz.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Lanyard (BSAIS)",
+      "price": 75,
+      "content": "The CCC-JPIANs Chapter is now advertising its merchandise for AFFORDABLE PRICES",
+      "imageUrl": "https://i.imgur.com/USlUNaz.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Gel Based Tint",
+      "price": 80,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/tEh12IY.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Scrunchie",
+      "price": 15,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/Mhmruf9.jpg"
+    },
+    {
+      "id": 29,
+      "name": "Customized Stickers",
+      "price": 120,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/qv29zhG.jpg"
+    },
+    {
+      "id": 30,
+      "name": "Aethetic Ring",
+      "price": 30,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/nZFaENj.jpg"
+    },
+    {
+      "id": 31,
+      "name": "Personalized Keychain 1",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/QnC4It1.jpg"
+    },
+    {
+      "id": 32,
+      "name": "Personalized Keychain 2",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/WyA1ZnW.jpg"
+    },
+    {
+      "id": 33,
+      "name": "Coin Purse Wallet",
+      "price": 15,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/vo8z7UE.jpg"
+    },
+    {
+      "id": 34,
+      "name": "Pink Flower Earings",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/5UHBBnT.jpg"
+    },
+    {
+      "id": 35,
+      "name": "Sunflower W/ Blue Rose Earings",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/ZIOLWax.jpg"
+    },
+    {
+      "id": 36,
+      "name": "Tassel Earings",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/GKgqxQe.jpg"
+    },
+    {
+      "id": 37,
+      "name": "Daisy Earings",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/7UaINg1.jpg"
+    },
+    {
+      "id": 38,
+      "name": "Sunflower Earings",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/nOvrsfZ.jpg"
+    },
+    {
+      "id": 39,
+      "name": "Earings (Set A)",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/rUsUSNZ.jpg"
+    },
+    {
+      "id": 40,
+      "name": "Earings (Set B)",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/OL6OCXS.jpg"
+    },
+    {
+      "id": 41,
+      "name": "Earings (Set C)",
+      "price": 45,
+      "content": "Financial Literacy Week Merchandise",
+      "imageUrl": "https://i.imgur.com/HhP6gLZ.jpg"
+    }
+  ]
 }
